@@ -7,6 +7,8 @@ export const Flex = styled.div`
     justify-items: ${props => `${props.justifyItems}`};
     align-content: ${props => `${props.alignContent}`};
     align-items: ${props => `${props.alignItems}`};
+    width: ${props => `${props.width}`};
+    height: ${props => `${props.height}`};
 
     & > * {
         align-self: start;  
